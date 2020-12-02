@@ -47,7 +47,7 @@ class App extends Component{
             placeholder="Search monsters"
             handleChange={this.handleChange}>
             </SearchBox>
-
+ 
             <CardList monsters={filteredMonsters} >
            </CardList>
           </div>
